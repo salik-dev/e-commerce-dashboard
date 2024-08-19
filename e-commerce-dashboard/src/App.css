@@ -13,3 +13,22 @@ body {
   min-height: 100vh;
   /* font-family: "Inter var", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" */
 }
+
+/* Nav-Bar styles start */
+.humburger-icon{
+  display: none;
+}
+@media only screen and (max-width: 600px){
+  .nav-container{
+    display: flex;
+  }
+  .humburger-icon{
+    display: block;
+  }
+  .nav-items{
+    display: none;
+    position: absolute;
+    top: 87px;
+    padding-left: 0px;
+  }
+}

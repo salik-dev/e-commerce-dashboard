@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "push": "git add . && git commit -m bahadurPush && git push",
+    "push": "git add . && git commit -m bahadurPush && git push"
   },
   "eslintConfig": {
     "extends": [
