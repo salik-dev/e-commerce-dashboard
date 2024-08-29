@@ -20,7 +20,7 @@ function SideBar() {
     setWidth(window.innerWidth);
   })
 
-  // let itemsStyles = `flex items-center pl-4 gap-3 mr-2`;
+  let itemsStyles = `flex items-center pl-4 gap-3 mr-2`;
   const openHandler = () => {
     setToggle('cross');
   }

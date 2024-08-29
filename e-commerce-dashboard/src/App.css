@@ -14,6 +14,16 @@ body {
   /* font-family: "Inter var", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" */
 }
 
+/* Dark-mode */
+.dark-mode{
+  background-color: darkblue;
+  padding: 20px;
+}
+.light-mode{
+  background-color: white;
+  padding: 20px;
+}
+
 /* Nav-Bar styles start */
 .humburger-icon, .cross-icon{
   display: none;
