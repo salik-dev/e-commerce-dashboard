@@ -31,7 +31,7 @@ function SideBar() {
 
   return (
     <nav>
-      <div className="nav-container flex justify-between items-center px-4 border-gray-200 shadow-md h-[70px]">
+      <div className="nav-container flex justify-between items-center px-4 border-gray-200 shadow-md h-[70px] ">
         <img src={"./logo.png"} height={110} width={110} alt="Site logo image" />
 
         {/* nav-bar toggler logics ( can be reFactored) */}

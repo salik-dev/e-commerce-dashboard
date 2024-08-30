@@ -6,16 +6,6 @@
   --blue: #008000;
 }
 /* src/styles/global.css */
-.btn-styles {
-  @apply py-2 px-4 m-2 mt-6 border-2 hover:bg-white hover:text-white;
-  border-color: var(--blue);
-  color: var(--blue);
-}
-
-.btn-styles:hover {
-  background-color: var(--blue);
-  color: white;
-}
 
 * {
   margin: 0px;
